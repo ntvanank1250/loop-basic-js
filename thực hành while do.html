@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thực hành while do</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><button onclick="bai1()">Bài 1</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="bai2()">Bài 2</button></td>
+        </tr>
+    </table>
+    
+    <script> function bai1() {
+            let num
+            let total = 0
+            while (num != -1) {
+                num = Number(prompt("Nhập số:"))
+                //tính tổng
+                total += num
+                console.log(total)
+            }
+        }
+        function bai2(){
+            let i = 1;
+
+while (i < 100) {
+    //phân thân vòng lặp
+    document.write("<hr width = " + i + "%>");
+    i++;
+}
+        }
+    </script>
+</body>
+
+</html>
